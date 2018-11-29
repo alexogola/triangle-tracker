@@ -19,4 +19,3 @@ function myTriangle() {
     alert("These measurements cannot form a triangle at all");
   }
 }
-alert(myTriangle());
