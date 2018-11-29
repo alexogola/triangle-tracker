@@ -1,5 +1,13 @@
 .header {
     background-image: url('../images/triangles.jpg');
+    text-align: center;
+}
+.headerContent {
+  width: 60%;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 100px;
+  padding-bottom: 200px;
 }
 
 .button {
@@ -7,6 +15,7 @@
     border: none;
     color: white;
     padding: 15px 32px;
+    margin: 0 auto;
     text-align: center;
     text-decoration: none;
     display: inline-block;
