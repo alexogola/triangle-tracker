@@ -1,21 +1,30 @@
-function myTriangle() {
-  var sideA = parseInt(prompt("Enter side \"A\" of the triangle"));
-  var sideB = parseInt(prompt("Enter side \"B\" of the triangle"));
-  var sideC = parseInt(prompt("Enter side \"C\" of the triangle"));
+function myTriangle(){
+	var triangle = [];
 
-  if (sideA === sideB && sideB === sideC) {
-    alert("These measurements form an equilateral triangle.");
-  }
-
-  else if (sideA === sideB || sideB === sideC || sideA === sideC) {
-    alert("These measurements form an isosceles Triangle");
-  }
-
-  else if (sideA +sideB > sideC || sideB + sideC >= sideA || sideA + sideC <= sideB) {
-    alert("These measurements form a scalene Triangle");
-  }
-
-  else {
-    alert("These measurements cannot form a triangle at all");
-  }
+		triangle.push(parseFloat(document.getElementById("sideA").value));
+			if(isNaN(triangle[0]) === true || triangle[0] <= 0){
+				alert("Please enter a valid dimension");
+			}else{
+				triangle.push(parseFloat(document.getElementById("sideB").value));
+					if(isNaN(triangle[1]) === true || triangle[1] <= 0){
+						alert("Please enter a valid dimension");
+					}else{
+						triangle.push(parseFloat(document.getElementById("sideC").value));
+						if(isNaN(triangle[2]) === true || triangle[2] <= 0){
+							alert("Please enter a valid dimension");
+						}else{
+							if((triangle[0] + triangle[1]) <= triangle[2] || (triangle[1] + triangle[2]) <= triangle[0] || (triangle[0] + triangle[2]) <= triangle[1]){
+								alert("These measurements cannot form a triangle.");
+							}
+								else if(triangle[0] === triangle[1] && triangle[1] === triangle[2]){
+									alert("These measurements form an equilateral triangle.");
+								}
+								else if(triangle[0] === triangle[1] || triangle[1] === triangle[2] || triangle[0] === triangle[2]){
+									alert("These measurements form an isosceles Triangle");
+								}else{
+									alert("These measurements form a scalene Triangle");
+								}
+						}
+					}
+			}
 }

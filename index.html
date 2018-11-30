@@ -2,17 +2,32 @@
 <html lang="en" dir="ltr">
   <head>
     <link rel="stylesheet" href="css/styles.css">
+    <script src="js/scripts.js" charset="utf-8"></script>
     <meta charset="utf-8">
     <title></title>
   </head>
   <body>
-    <div class="header">
-      <div class="headerContent">
-        <h1>What is Lorem Ipsum?</h1>
-          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-      </div>      
-      <button onclick="myTriangle()" class="button">Check my triangle</button>
+    <div class="container">
+      <form name="triangleForm">
+        <div class="row">
+          <div class="col-75">
+            <input type="text" id="sideA" name="sideA" placeholder="Length of side A">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-75">
+            <input type="text" id="sideB" name="sideB" placeholder="Length of side B">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-75">
+            <input type="text" id="sideC" name="sideC" placeholder="Length of side C">
+          </div>
+        </div>
+        <div class="row">
+          <input type="submit" value="Submit" onClick = "myTriangle()">
+        </div>
+      </form>
     </div>
-    <script src="js/scripts.js" charset="utf-8"></script>
   </body>
 </html>
