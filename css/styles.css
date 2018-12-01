@@ -56,10 +56,15 @@ ol li {
 
 .titles {
   text-decoration: underline;
+  color: #4CAF50;
 }
 .triangleDescriptions {
   width: 800px;
   margin: 0 auto;
+}
+
+strong{
+  color: #4CAF50;
 }
 
 
