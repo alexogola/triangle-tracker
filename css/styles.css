@@ -1,5 +1,5 @@
 /* Style inputs, select elements and textareas */
-input[type=text], select, textarea{
+input[type=text], select, textarea {
   width: 100%;
   padding: 12px;
   border: 1px solid #ccc;
@@ -7,7 +7,6 @@ input[type=text], select, textarea{
   box-sizing: border-box;
   resize: vertical;
 }
-
 
 /* Style the submit button */
 input[type=submit] {
@@ -22,7 +21,7 @@ input[type=submit] {
 }
 
 ol li {
-    padding: 5px;
+  padding: 5px;
 }
 
 /* Style the container */
@@ -32,6 +31,7 @@ ol li {
   padding: 20px;
   margin: 0 auto;
 }
+
 .form {
   text-align: center;
   margin-top: 60px;
@@ -58,15 +58,15 @@ ol li {
   text-decoration: underline;
   color: #4CAF50;
 }
+
 .triangleDescriptions {
   width: 800px;
   margin: 0 auto;
 }
 
-strong{
+strong {
   color: #4CAF50;
 }
-
 
 /* Floating column for inputs: 75% width */
 .col-75 {

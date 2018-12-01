@@ -1,62 +1,62 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <link rel="stylesheet" href="css/styles.css">
-    <script src="js/scripts.js" charset="utf-8"></script>
-    <meta charset="utf-8">
-    <title></title>
-  </head>
-  <body>
-    <div class="container">
-      <div class="textContainer">
-        <h1 class="titles">The Triangle Tracker</h1>
-        <p>This application helps you know whether a triangle is isosceles, equilateral, scalene or NOT a triangle at all.</p>
-      </div>
-      <div class="triangleDescriptions">
-        <ol>
-          <li>
-            <strong>Equilateral Triangle:</strong>
-            This type of triangle consists of three equal sides and equal angles. Every side of the triangle is of the same length and every angle will be of the same measure of 60°.
-          </li>
-          <li>
-            <strong>Isosceles triangle:</strong>
-            This type of triangle consists of only two equal sides. It also consists of two equal angles.
-          </li>
-          <li>
-            <strong>Scalene Triangle:</strong>
-            The triangle with no equal sides is the scalene triangle. Each line of this triangle is of different length.
-          </li>
-        </ol>
-      </div>
-      <div class="homeImage">
-        <img src="images/geometry.jpg" alt="" width="800px">
-      </div>
-      <div class="form">
-        <h3 class="titles">Enter your values below</h3>
-        <form name="triangleForm" method="POST">
-          <div class="row">
-            <div class="col-75">
-              <input type="text" id="sideA" name="sideA" placeholder="Length of side A">
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-75">
-              <input type="text" id="sideB" name="sideB" placeholder="Length of side B">
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-75">
-              <input type="text" id="sideC" name="sideC" placeholder="Length of side C">
-            </div>
-          </div>
-          <div class="row">
-            <input type="submit" value="Submit" onClick = "myTriangle()">
-          </div>
-        </form>
 
-      </div>
+<head>
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="js/scripts.js" charset="utf-8"></script>
+  <meta charset="utf-8">
+  <title></title>
+</head>
 
-
+<body>
+  <div class="container">
+    <div class="textContainer">
+      <h1 class="titles">The Triangle Tracker</h1>
+      <p>This application helps you know whether a triangle is isosceles, equilateral, scalene or NOT a triangle at all.</p>
     </div>
-  </body>
+    <div class="triangleDescriptions">
+      <ol>
+        <li>
+          <strong>Equilateral Triangle:</strong>
+          This type of triangle consists of three equal sides and equal angles. Every side of the triangle is of the same length and every angle will be of the same measure of 60°.
+        </li>
+        <li>
+          <strong>Isosceles triangle:</strong>
+          This type of triangle consists of only two equal sides. It also consists of two equal angles.
+        </li>
+        <li>
+          <strong>Scalene Triangle:</strong>
+          The triangle with no equal sides is the scalene triangle. Each line of this triangle is of different length.
+        </li>
+      </ol>
+    </div>
+    <div class="homeImage">
+      <img src="images/geometry.jpg" alt="" width="800px">
+    </div>
+    <div class="form">
+      <h3 class="titles">Enter your values below</h3>
+      <form name="triangleForm" method="POST">
+        <div class="row">
+          <div class="col-75">
+            <input type="text" id="sideA" name="sideA" placeholder="Length of side A">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-75">
+            <input type="text" id="sideB" name="sideB" placeholder="Length of side B">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-75">
+            <input type="text" id="sideC" name="sideC" placeholder="Length of side C">
+          </div>
+        </div>
+        <div class="row">
+          <input type="submit" value="Submit" onClick="myTriangle()">
+        </div>
+      </form>
+    </div>
+  </div>
+</body>
+
 </html>
