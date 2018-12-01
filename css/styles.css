@@ -48,6 +48,10 @@ ol li {
   padding-bottom: 12px;
   padding-top: 12px;
 }
+
+.titles {
+  text-decoration: underline;
+}
 .triangleDescriptions {
   width: 800px;
   margin: 0 auto;
