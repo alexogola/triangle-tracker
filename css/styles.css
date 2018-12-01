@@ -21,18 +21,35 @@ input[type=submit] {
   cursor: pointer;
 }
 
+ol li {
+    padding: 5px;
+}
+
 /* Style the container */
 .container {
   border-radius: 5px;
   background-color: #f2f2f2;
   padding: 20px;
   margin: 0 auto;
+}
+.form {
   text-align: center;
 }
 
 .textContainer {
   text-align: center;
   width: 60%;
+  margin: 0 auto;
+}
+
+.homeImage {
+  text-align: center;
+  margin: 0 auto;
+  padding-bottom: 12px;
+  padding-top: 12px;
+}
+.triangleDescriptions {
+  width: 800px;
   margin: 0 auto;
 }
 

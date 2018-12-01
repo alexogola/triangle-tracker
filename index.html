@@ -9,29 +9,53 @@
   <body>
     <div class="container">
       <div class="textContainer">
-        <h1>What is Lorem Ipsum?</h1>
-          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+        <h1>The Triangle Tracker</h1>
+        <h2>There are three types of Triangles with Respect to Sides;</h2>
       </div>
-      <form name="triangleForm" method="POST">
-        <div class="row">
-          <div class="col-75">
-            <input type="text" id="sideA" name="sideA" placeholder="Length of side A">
+      <div class="triangleDescriptions">
+        <ol>
+          <li>
+            <strong>Equilateral Triangle:</strong>
+            This type of triangle consists of three equal sides and equal angles. Every side of the triangle is of the same length and every angle will be of the same measure of 60°.
+          </li>
+          <li>
+            <strong>Isosceles triangle:</strong>
+            This type of triangle consists of only two equal sides. It also consists of two equal angles.
+          </li>
+          <li>
+            <strong>Scalene Triangle:</strong>
+            The triangle with no equal sides is the scalene triangle. Each line of this triangle is of different length.
+          </li>
+        </ol>
+      </div>
+      <div class="homeImage">
+        <img src="images/geometry.jpg" alt="" width="800px">
+      </div>
+      <div class="form">
+        <form name="triangleForm" method="POST">
+          <div class="row">
+            <div class="col-75">
+              <input type="text" id="sideA" name="sideA" placeholder="Length of side A">
+            </div>
           </div>
-        </div>
-        <div class="row">
-          <div class="col-75">
-            <input type="text" id="sideB" name="sideB" placeholder="Length of side B">
+          <div class="row">
+            <div class="col-75">
+              <input type="text" id="sideB" name="sideB" placeholder="Length of side B">
+            </div>
           </div>
-        </div>
-        <div class="row">
-          <div class="col-75">
-            <input type="text" id="sideC" name="sideC" placeholder="Length of side C">
+          <div class="row">
+            <div class="col-75">
+              <input type="text" id="sideC" name="sideC" placeholder="Length of side C">
+            </div>
           </div>
-        </div>
-        <div class="row">
-          <input type="submit" value="Submit" onClick = "myTriangle()">
-        </div>
-      </form>
+          <div class="row">
+            <input type="submit" value="Submit" onClick = "myTriangle()">
+          </div>
+        </form>
+
+      </div>
+
+
     </div>
   </body>
 </html>
