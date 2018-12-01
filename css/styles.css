@@ -30,6 +30,12 @@ input[type=submit] {
   text-align: center;
 }
 
+.textContainer {
+  text-align: center;
+  width: 60%;
+  margin: 0 auto;
+}
+
 
 /* Floating column for inputs: 75% width */
 .col-75 {
