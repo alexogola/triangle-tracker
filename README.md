@@ -12,7 +12,7 @@ A web page that allows the user to input the lengths of the sides of a triangle,
 
 ## Technology used
 
-This web page was built using hyper text markup language ,cascading styles sheet and JavaScript.
+This web page was built using HTML, CSS and JavaScript.
 
 Target Audience-Everyone.
 
