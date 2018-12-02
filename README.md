@@ -1,23 +1,23 @@
-#TRIANGLE-TRACKER
+# TRIANGLE-TRACKER
 
  This project is a web page displaying a triangle tracker.
 
-##Author name
+## Author name
 
 Alex Ogola
 
-##Project description
+## PROJECT DESCRIPTION
 
 A web page that allows the user to input the lengths of the sides of a triangle, and returns whether these sides form an equilateral, isosceles, or scalene triangle or if the sides cannot make a triangle at all.
 
-##technology used
+## TECHNOLOGY USED
 
 This web page was built using hyper text markup language ,cascading styles sheet and JavaScript.
 
 Target Audience-Everyone.
 
 
-##project setup installation
+## PROJECT SETUP INSTALLATION
 
 1.On GitHub, navigate to the main page of the repository.
 
@@ -33,7 +33,7 @@ Target Audience-Everyone.
 
 7.Press Enter. Your local clone will be created.
 
-##Behavior Driven Development
+## BEHAVIOUR DRIVEN DEVELOPMENT
 * The program should return this when the input is not a number:
 
 **Input Example**: a
@@ -70,12 +70,12 @@ Target Audience-Everyone.
 
 **Output Example**: These measurements form a scalene Triangle.
 
-##live link
+## LIVE LINK
 
 https://lex-of-pakawa.github.io/triangle-tracker/
 
 
-##license
+## LICENSE
 MIT licence
 
 Copyright <YEAR> <COPYRIGHT HOLDER>
