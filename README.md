@@ -1,6 +1,6 @@
 #TRIANGLE-TRACKER
 
-A web page that allows the user to input the lengths of the sides of a triangle, and returns whether these sides form an equilateral, isosceles, or scalene triangle or if the sides cannot make a triangle at all.
+ This project is a web page displaying a triangle tracker.
 
 ##Author name
 
@@ -32,6 +32,43 @@ Target Audience-Everyone.
 6.Type git clone, and then paste the URL you copied in Step 2.
 
 7.Press Enter. Your local clone will be created.
+
+##Behavior Driven Development
+* The program should return this when the input is not a number:
+
+**Input Example**: a
+
+**Output Example**: Please enter valid dimensions.
+
+* The program should return this when the input is a negative value:
+
+**Input Example**: -1
+
+**Output Example**: Please enter valid dimensions.
+
+* The program should return this when the sum of any two sides is less than or equal to the third side:
+
+**Input Example**: Length of side A = 1, Length of side B = 1, Length of side C
+
+**Output Example**: These measurements cannot form a triangle.
+
+* The program should return this when all sides are equal:
+
+**Input Example**: Length of side A = 4, Length of side B = 4, Length of side C = 4
+
+**Output Example**: These measurements form an equilateral triangle.
+
+* The program should return this when at most two sides are equal:
+
+**Input Example**: Length of side A = 4, Length of side B = 4, Length of side C = 5
+
+**Output Example**: These measurements form an isosceles Triangle.
+
+* The program should return this when all sides are not equal:
+
+**Input Example**: Length of side A = 4, Length of side B = 5, Length of side C = 6
+
+**Output Example**: These measurements form a scalene Triangle.
 
 ##live link
 
